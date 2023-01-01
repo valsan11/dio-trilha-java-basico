@@ -11,5 +11,11 @@ public class TiposVariaveis {
 		  final  int NUMERO = 1;
 		  //NUMERO =2;
 		  System.out.println("Hello, World!" + NUMERO);
+		  
+		  int a = 6;
+		  int b = 6;
+		  
+		  String resposta = a==b ? "verdadeiro": "falso";
+		  System.out.println(resposta);
 	  }
 }
